@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hello_world/basic_widgets/date_time_pickers.dart';
 import 'package:hello_world/basic_widgets/dialog_widget.dart';
 import 'package:hello_world/basic_widgets/image_widget.dart';
+import 'package:hello_world/basic_widgets/text_widget.dart';
 import 'package:hello_world/basic_widgets/inputSelection_widget.dart';
 import 'package:hello_world/basic_widgets/scaffold_widget.dart';
 
@@ -25,8 +26,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class TugasNo2 extends StatelessWidget {
-  const TugasNo2({super.key});
+class Tugas extends StatelessWidget {
+  const Tugas({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -71,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const MyImageWidget(),
+            const MyTextWidget(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
