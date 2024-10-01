@@ -36,7 +36,9 @@ A new Flutter project.
 #### Langkah 1
 
 Buka VS Code, lalu tekan tombol Ctrl + Shift + P maka akan tampil Command Palette, lalu ketik Flutter. Pilih New Application Project.
+
 ![commad plate](./images/03.png)
+
 ![pilih type project](./images/04.png)
 
 #### Langkah 2
